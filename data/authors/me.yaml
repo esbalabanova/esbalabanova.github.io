@@ -1,0 +1,53 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Елизавета Балабанова
+  given: Елизавета
+  family: Балабанова
+  pronunciation: ''
+  pronouns: она/ей
+role: Студент
+bio: |
+  Студентка, изучающая архитектура компьютера и операционные системы.
+
+affiliations:
+  - name: Российский университет дружбы народов
+    url: https://rudn.ru
+
+links:
+  - icon: at-symbol
+    url: 1032253516@rudn.ru
+    label: Написать письмо
+  - icon: brands/github
+    url: https://github.com/esbalabanova
+    label: GitHub
+
+interests:
+  - DevOps и CI/CD
+  - Автоматизация
+  - Open Source
+  - Генераторы статических сайтов
+
+education:
+  - degree: Студентка 1 курса
+    institution: Российский универститет дружбы народов
+    summary: Направление "Фундаментальная информатика и инфоомационные технологии"
+
+skills:
+  - name: Технические навыки
+    items:
+      - label: Linux (Fedora)
+        level: 4
+      - label: Git
+        level: 4
+      - label: Hugo
+        level: 3
+
+languages:
+  - name: Русский
+    level: 5
+    label: Родной
+  - name: English
+    level: 3
+    label: Средний
